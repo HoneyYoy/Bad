@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Во все тяжкие</title>
+
+<link rel="stylesheet" href="style.css">
+<style>
+    /* Ограничиваем размер видео */
+    .video-container {
+        max-width: 800px;  /* Максимальная ширина */
+        margin: 20px auto; /* Центрирование */
+    }
+    
+    .video-container iframe {
+        width: 100%;       /* Растягивается до ширины контейнера */
+        height: 450px;     /* Фиксированная высота */
+        border: none;
+        border-radius: 8px; /* Скругленные углы */
+    }
+
+</style>
+</head>
+<body>
+
+<div class="overlay">
+    
+    
+    <img src="logo.png" width="330" height="150" alt="Лого">
+    
+
+    <div class="seasons">
+        
+        <select class="seasons" name="Season" id="indicator ">
+            <option value="season1">1 сезон</option>
+            <option value="season2">2 сезон</option>
+            <option value="season3">3 сезон</option>
+            <option value="season4">4 сезон</option>
+            <option value="season5">5 сезон</option>
+    
+        </select>
+        <a href="actors.html" link-button class="actors">Актёры</a>
+    </div>
+</div>
+
+    
+    
+    <div class="video-container">
+        <p>Пилот<p>
+        <iframe 
+            src="https://rutube.ru/embed/player/c122b6d3f69a3e34ea22d0427dc40174" 
+            width="640" 
+            height="360" 
+            frameborder="0" 
+            allowfullscreen>
+        </iframe>
+    </div>
+    <div class="video-container">
+        <p>Кот в мешке...</p>
+        <iframe 
+            src="https://rutube.ru/play/embed/5e6d33a1256efd8d5c2469352b09f367" 
+            width="640" 
+            height="360" 
+            frameborder="0" 
+            allowfullscreen>
+        </iframe>
+    </div>
+    <div class="video-container">
+        <p>...И мешок в реке</p>
+        <iframe 
+            src="https://rutube.ru/play/embed/791ebc0708bfd76a373b2c118dad2c60" 
+            width="640" 
+            height="360" 
+            frameborder="0" 
+            allowfullscreen>
+        </iframe>
+    </div>
+    <div class="video-container">
+        <p>Раковый больной</p>
+        <iframe 
+            src="https://rutube.ru/play/embed/8a9d88f53b8cc59915ec40277f9d0e35" 
+            width="640" 
+            height="360" 
+            frameborder="0" 
+            allowfullscreen>
+        </iframe>
+    </div>
+    <div class="video-container">
+        <p>Серое вещество</p>
+        <iframe 
+            src="https://rutube.ru/play/embed/64306c960ce28021264b4bcd3ded0ba9" 
+            width="640" 
+            height="360" 
+            frameborder="0" 
+            allowfullscreen>
+        </iframe>
+    </div>
+    <div class="video-container">
+        <p>Пустой блеф</p>
+        <iframe 
+            src="https://rutube.ru/play/embed/fa91524ab9ba807c6b2b3b1eb50061ed" 
+            width="640" 
+            height="360" 
+            frameborder="0" 
+            allowfullscreen>
+        </iframe>
+    </div>
+    <div class="video-container">
+        <p>Бизнес по-взрослому</p>
+        <iframe 
+            src="https://rutube.ru/play/embed/e7acddd775300734ce56cb36a91fa610" 
+            width="640" 
+            height="360" 
+            frameborder="0" 
+            allowfullscreen>
+        </iframe>
+    </div>
+       
+    <!--<div class="grid">
+
+        <div class="card"
+             onclick="playVideo('HhesaQXLuRY')">
+            <img src="https://img.youtube.com/vi/HhesaQXLuRY/hqdefault.jpg">
+            <span>Серия 1</span>
+        </div>
+
+        <div class="card"
+             onclick="playVideo('HhesaQXLuRY')">
+            <img src="https://img.youtube.com/vi/HhesaQXLuRY/hqdefault.jpg">
+            <span>Серия 2</span>
+        </div>
+
+        <div class="card"
+             onclick="playVideo('HhesaQXLuRY')">
+            <img src="https://img.youtube.com/vi/HhesaQXLuRY/hqdefault.jpg">
+            <span>Серия 3</span>
+        </div>
+
+        <div class="card"
+             onclick="playVideo('HhesaQXLuRY')">
+            <img src="https://img.youtube.com/vi/HhesaQXLuRY/hqdefault.jpg">
+            <span>Серия 4</span>
+        </div>
+
+        <div class="card"
+             onclick="playVideo('HhesaQXLuRY')">
+            <img src="https://img.youtube.com/vi/HhesaQXLuRY/hqdefault.jpg">
+            <span>Серия 5</span>
+        </div>
+
+        <div class="card"
+             onclick="playVideo('HhesaQXLuRY')">
+            <img src="https://img.youtube.com/vi/HhesaQXLuRY/hqdefault.jpg">
+            <span>Серия 6</span>
+        </div>
+
+        <div class="card"
+             onclick="playVideo('HhesaQXLuRY')">
+            <img src="https://img.youtube.com/vi/HhesaQXLuRY/hqdefault.jpg">
+            <span>Серия 7</span>
+        </div>
+
+        <div class="card"
+             onclick="playVideo('HhesaQXLuRY')">
+            <img src="https://img.youtube.com/vi/HhesaQXLuRY/hqdefault.jpg">
+            <span>Серия 8</span>
+        </div>
+
+    </div>
+-->
+    <div class="player">
+        <iframe id="player"
+                src=""
+                allowfullscreen>
+        </iframe>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

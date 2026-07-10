@@ -1,0 +1,117 @@
+body{
+    background-image: url(background.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+.content{
+
+    display:grid;
+
+    grid-template-columns:420px 1fr;
+
+    gap:25px;
+
+}
+
+.episodes{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:15px;
+
+    max-height:720px;
+
+    overflow:auto;
+
+}
+
+.card{
+
+    cursor:pointer;
+
+    transition:.2s;
+
+}
+
+.card:hover{
+
+    transform:scale(1.04);
+
+}
+
+.card img{
+
+    width:100%;
+
+    border-radius:8px;
+
+}
+
+.title{
+
+    margin-top:5px;
+    
+    color:white;
+
+}
+
+
+iframe{
+
+    width:100%;
+
+    height:720px;
+
+    border:none;
+
+    border-radius:10px;
+
+}
+.seasons{
+    width: 100px ;
+    height: 50px;
+    font-size: 20px;
+    display:flex;
+    gap: 5px;
+}
+.actors {
+    width: 100px ;
+    height: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    background: rgb(255, 255, 255);
+    margin-top: 5px;
+    border-radius: 50px;
+    color: #000;
+    padding-top:12px;
+}
+.back {
+    width: 150px ;
+    height: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    background: rgb(255, 255, 255);  
+    margin-top:5px ;
+    border-radius: 50px;
+}
+h1{
+    color:whitesmoke;
+    font-size: 67px;
+}
+.movie{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+}
+.actor{
+    display: flex;
+    flex-wrap: wrap;  
+    gap: 15px;  
+}
+p{
+    color:white;
+    font-size:30px;
+}
